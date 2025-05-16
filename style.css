@@ -60,12 +60,12 @@ body {
     margin: 32px 0px 20px 0px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
 }
 .search__s2 span{
     font-size: 18px;
-    padding: 8px 12px;
+    padding: 8px 0px;
     color: #333333;
     border-bottom: 2px solid white;
 }

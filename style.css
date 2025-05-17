@@ -161,9 +161,14 @@ body {
         display: none;
     }
     .search__s2{
+        margin-top: 20px;
         overflow: scroll;
+        white-space: nowrap;
     }
     .search__s2 span:nth-child(1){
-        margin-left: 225px;
+        margin-left: 500px;
+    }
+    .search__s3 input{
+        width: 100%;
     }
 }

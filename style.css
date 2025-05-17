@@ -248,6 +248,13 @@ body {
     font-weight: 500;
 }
 
+/* FOOTER */
+.footer{
+    padding: 32px 188px;
+    background-color: #f2f1eb;
+}
+
+
 
 @media(min-width: 320px) and (max-width: 480px){
     /* NAVBAR */

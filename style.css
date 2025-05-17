@@ -172,7 +172,6 @@ body {
 .body__container{
     display: flex;
     gap: 18px;
-    align-items: center;
     margin-bottom: 64px;
     overflow: hidden;
     overflow-x: auto;
@@ -197,6 +196,33 @@ body {
     text-shadow: 1px 1px 30px #333333;
 }
 /* CONATINER 2 */
+.body__card2{
+    position: relative;
+}
+.body__card2 label{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+.body__card2 h3{
+    font-size: 16px;
+    margin: 0;
+}
+.body__card2 p{
+    font-size: 14px;
+    margin: 0;
+}
+.body__card2 span{
+    color: gray;
+    font-size: 14px;
+}
+.body__card2 span:nth-of-type(2){
+    font-size: 20px;
+    color: #00a568;
+}
 
 
 @media(min-width: 320px) and (max-width: 480px){

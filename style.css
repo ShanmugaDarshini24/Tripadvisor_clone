@@ -160,4 +160,10 @@ body {
     .search__s1{
         display: none;
     }
+    .search__s2{
+        overflow: scroll;
+    }
+    .search__s2 span:nth-child(1){
+        margin-left: 225px;
+    }
 }

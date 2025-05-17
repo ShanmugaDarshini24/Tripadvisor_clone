@@ -308,8 +308,9 @@ body {
     font-size: 14px;
 }
 
-.footer__s2s2{
+.footer__s2s2 i{
     font-size: 20px;
+    padding-right: 5px;
 }
 
 
@@ -375,5 +376,13 @@ body {
     }
     .body__explore .body__container img {
         width: 355px;   
+    }
+    /* FOOTER */
+    .footer{
+        padding: 32px 5px;
+        flex-wrap: wrap-reverse;
+    }
+    .footer__s1s1 {
+        gap: 25px;   
     }
 }

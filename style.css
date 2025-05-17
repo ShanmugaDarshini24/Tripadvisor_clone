@@ -163,7 +163,7 @@ body {
 .body h2{
     font-size: 24px;
     font-weight: 500;
-    margin: 0;
+    margin: 10px 0px;
 }
 .body p{
     color: #333333eb;
@@ -199,7 +199,7 @@ body {
 .body__card2{
     position: relative;
 }
-.body__card2 label{
+.body__container label{
     position: absolute;
     top: 10px;
     right: 10px;
@@ -222,6 +222,27 @@ body {
 .body__card2 span:nth-of-type(2){
     font-size: 20px;
     color: #00a568;
+}
+/* EXPLORE COONTAINER */
+.body__explore{
+    width: 100%;
+    background-color: #f2f1eb;
+    padding: 40px 0px;
+}
+.body__explore .body__container, .body__explore h2{
+    margin: 0px 188px;
+}
+.body__explore h2{
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.body__explore .body__container img{
+    width: 366px;
+}
+.body__explore p{
+    text-align: center;
+    color: #333333;
+    font-weight: 500;
 }
 
 
@@ -280,5 +301,12 @@ body {
     }
     .body__container img{
         width: 215px;
+    }
+    /* EXPLORE */
+    .body__explore .body__container,.body__explore h2{
+        margin: 0px 10px;   
+    }
+    .body__explore .body__container img {
+        width: 355px;   
     }
 }

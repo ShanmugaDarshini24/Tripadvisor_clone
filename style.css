@@ -60,6 +60,9 @@ body {
     margin: 32px 0px 20px 0px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
+    overflow-x: auto;
+    scrollbar-width: none;
 }
 .search__s2 span{
     font-size: 18px;
@@ -162,7 +165,6 @@ body {
     }
     .search__s2{
         margin-top: 20px;
-        overflow: scroll;
         white-space: nowrap;
     }
     .search__s2 span:nth-child(1){
@@ -170,5 +172,13 @@ body {
     }
     .search__s3 input{
         width: 100%;
+    }
+    /* BANNER */
+    .banner{
+        margin: 40px 5px;
+    }
+    .banner img{
+        max-width: 355px;
+        height: 450px;
     }
 }

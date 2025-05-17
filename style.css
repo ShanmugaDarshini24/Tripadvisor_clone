@@ -252,9 +252,60 @@ body {
 .footer{
     padding: 32px 188px;
     background-color: #f2f1eb;
+    display: flex;
+    gap: 20px;
+}
+/* FOOTER SECTION 1 */
+.footer__s1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
+.footer__s1s1{
+    display: flex;
+    gap: 75px;
+}
+.footer__s1s1s1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer__s1s1s1 p{
+    margin: 5px 0px;
+}
+.footer__s1s1s1 a{
+    color: #333333;
+    text-decoration: none;
+    font-size: 14px;
+}
 
+.footer__s1s2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer__s1s2 img{
+    width: 30px;
+}
+.footer__s1s2 p, .footer__s1s3 p{
+   font-size: 14px;
+   color: #333333;
+   margin: 0;
+}
+/* FOOTER SECTION 2 */
+.footer__s2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__s2s1 p:nth-child(1){
+    margin: 5px 0px;
+}
+.footer__s2s1 p:nth-child(2), .footer__s2s1 a{
+    color: #333333;
+    font-size: 14px;
+}
 
 @media(min-width: 320px) and (max-width: 480px){
     /* NAVBAR */

@@ -181,6 +181,7 @@ body {
     width: 270px;
     border-radius: 8px;
 }
+
 /* CONTAINER 1 */
 .body__card1{
     position: relative;
@@ -195,6 +196,7 @@ body {
     padding: 15px;
     text-shadow: 1px 1px 30px #333333;
 }
+
 /* CONATINER 2 */
 .body__card2{
     position: relative;
@@ -223,6 +225,7 @@ body {
     font-size: 20px;
     color: #00a568;
 }
+
 /* EXPLORE COONTAINER */
 .body__explore{
     width: 100%;

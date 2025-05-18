@@ -339,6 +339,7 @@ body {
     }
     .search__s3 input{
         width: 100%;
+        font-size: 16px;
     }
     /* BANNER */
     .banner{
@@ -381,8 +382,18 @@ body {
     .footer{
         padding: 32px 5px;
         flex-wrap: wrap-reverse;
+        justify-content: center;
     }
     .footer__s1s1 {
-        gap: 25px;   
+        display: none;
+    }
+    .footer__s1s2{
+        justify-content: center;
+    }
+    .footer__s1s3{
+        text-align: center;
+    }
+    .footer__s2s1{
+        display: none;
     }
 }

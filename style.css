@@ -22,11 +22,13 @@ body {
     color: black;
     padding: 10px 16px;
     border-radius: 20px;
+    transition: 0.5s;
 }
 .navbar__s2 span:nth-child(4):hover{
     color: #000000a9;
     text-decoration: underline;
     background-color: white;
+    transition: 0.5s;
 }
 .navbar__s2 span:hover, .navbar__s3 span:hover{
     background-color: #8080801d;
@@ -71,6 +73,7 @@ body {
     margin: 0px 16px;
     color: #333333;
     border-bottom: 2px solid white;
+    transition: 0.5s;
 }
 .search__s2 span:hover{
     border-bottom: 2px solid #333333;
@@ -180,6 +183,10 @@ body {
 .body__container img{
     width: 270px;
     border-radius: 8px;
+}
+.body__container img:hover{
+    opacity: 0.8;
+    transition: 0.3s;
 }
 
 /* CONTAINER 1 */

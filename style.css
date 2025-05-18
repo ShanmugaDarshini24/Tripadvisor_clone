@@ -365,12 +365,19 @@ body {
     .body{
         margin: 10px 20px;
     }
+    .body h2{
+        font-size: 20px;
+    }
     .body__container{
         gap: 10px;
     }
     .body__container img{
         width: 215px;
     }
+    .body__card1 span{
+        font-size: 18px;
+    }
+
     /* EXPLORE */
     .body__explore .body__container,.body__explore h2{
         margin: 0px 10px;   

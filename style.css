@@ -19,6 +19,7 @@ body {
     padding: 16px 188px;
     z-index: 1;
     backdrop-filter: blur(5px);
+    background-color: #ffffff6f;
 }
 .navbar__s1 img{
     width: 190px;
